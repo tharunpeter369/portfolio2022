@@ -1,5 +1,8 @@
 import React from "react";
 import "./Intro.css";
+import Github from '../../img/github.png';
+import Instagram from '../../img/instagram.png';
+import Linkedin from '../../img/linkedin.png';
 
 function Intro() {
   return (
@@ -14,6 +17,11 @@ function Intro() {
           </span>
         </div>
         <button className="i-button button">Hire me</button>
+        <div className="i-icons">
+          <img src={Github} alt="" />
+          <img src={Instagram} alt="" />
+          <img src={Linkedin} alt="" />
+        </div>
       </div>
       <div className="i-right">i am right side</div>
     </div>
