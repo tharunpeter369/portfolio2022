@@ -1,5 +1,4 @@
 .intro{
-    /* background-color: cadetblue; */
     display: flex;
     height: 77vh;
 }
@@ -40,6 +39,78 @@
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
+.i-button{
+    height: 2rem;
+    width: 6rem;
+}
+
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex:1;
+    position:relative;
+}
+
+.i-right>*{
+    position:absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left:-15%;
+    top:-9%;
+}
+
+.i-right>:nth-child(2){
+    top: -4.4rem;
+    transform: scale(0.67);
+    left:-3rem;
+}
+
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left:28%;
+}
+
+.i-right>:nth-child(4){
+    transform: scale(.6);
+    top:-19%;
+    left:-24%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.i-floaters-crown{
+    top:-4%;
+    left:68%;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index:-9;
+    top:-18%;
+    left:56%;
+    filter: blur(72px);
+=======
 .i-button {
     width:6rem;
     height: 2rem;
@@ -57,4 +128,5 @@
 
 .i-icons >*:hover{
     cursor:pointer;
+>>>>>>> 80c2b2b36fec82f461965dc758a80da0bea4b909
 }
