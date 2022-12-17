@@ -39,6 +39,7 @@
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
 .i-button{
     height: 2rem;
     width: 6rem;
@@ -109,4 +110,23 @@
     top:-18%;
     left:56%;
     filter: blur(72px);
+=======
+.i-button {
+    width:6rem;
+    height: 2rem;
+}
+
+.i-icons {
+    margin-top: 3rem;
+    display: flex;
+    gap:0rem;
+}
+
+.i-icons >*{
+    transform: scale(0.5);
+}
+
+.i-icons >*:hover{
+    cursor:pointer;
+>>>>>>> 80c2b2b36fec82f461965dc758a80da0bea4b909
 }
